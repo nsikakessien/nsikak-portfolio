@@ -416,13 +416,22 @@ export default function Portfolio() {
       {/* Footer */}
       <footer className="border-t border-slate-800/60 py-8 px-6 text-center text-xs text-slate-500">
         <div className="flex justify-center gap-6 mb-4">
-          <a href="#" className="hover:text-slate-300 transition-colors">
+          <a
+            href="https://github.com/nsikakessien"
+            className="hover:text-slate-300 transition-colors"
+          >
             <FaGithub className="w-4 h-4" />
           </a>
-          <a href="#" className="hover:text-slate-300 transition-colors">
+          <a
+            href="https://www.linkedin.com/in/nsikak-imeh-essien/"
+            className="hover:text-slate-300 transition-colors"
+          >
             <FaLinkedinIn className="w-4 h-4" />
           </a>
-          <a href="#" className="hover:text-slate-300 transition-colors">
+          <a
+            href="mailto:nsikakessien66@gmail.com"
+            className="hover:text-slate-300 transition-colors"
+          >
             <Mail className="w-4 h-4" />
           </a>
         </div>
