@@ -18,6 +18,23 @@ import {
 
 const projects = [
   {
+    title: "PulseBook",
+    category: "Full Stack",
+    description: "A Multi-clinic appointment booking portal.",
+    tech: [
+      "Next.js",
+      "TypeScript",
+      "Prisma",
+      "Neon DB",
+      "Tailwind CSS",
+      "Node.js",
+      "Express",
+      "Socket.IO",
+    ],
+    github: "https://github.com/nsikakessien/healthalyst-task-backend",
+    live: "https://healthalyst-task-frontend.vercel.app/",
+  },
+  {
     title: "Health Hub",
     category: "Full Stack",
     description:
@@ -246,12 +263,14 @@ export default function Portfolio() {
                   <div className="flex gap-3 text-slate-400">
                     <a
                       href={project.github}
+                      target="_blank"
                       className="hover:text-slate-100 transition-colors"
                     >
                       <FaGithub className="w-4 h-4" />
                     </a>
                     <a
                       href={project.live}
+                      target="_blank"
                       className="hover:text-slate-100 transition-colors"
                     >
                       <ExternalLink className="w-4 h-4" />
