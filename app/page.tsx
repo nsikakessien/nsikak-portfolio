@@ -18,6 +18,32 @@ import {
 
 const projects = [
   {
+    title: "Straqa",
+    category: "Full Stack",
+    description:
+      "Straqa is an AI-powered operating system and digital logistics platform built for Africa's commerce and supply chain economy.",
+    tech: [
+      "Next.js",
+      "TypeScript",
+      "Prisma",
+      "Neon DB",
+      "Tailwind CSS",
+      "Nestjs",
+      "Postgresql",
+    ],
+    github: "",
+    live: "https://usestraqa.com/",
+  },
+  {
+    title: "PCC Connect",
+    category: "Full Stack",
+    description:
+      "PCC Connect is a digital fellowship management platform designed to simplify how fellowship coordinators manage members, record attendance, monitor participation, and generate reports across multiple PCC centres.",
+    tech: ["Next.js", "TypeScript", "Prisma", "Neon DB", "Tailwind CSS"],
+    github: "",
+    live: "https://pcc-connect-nov.vercel.app/login",
+  },
+  {
     title: "PulseBook",
     category: "Full Stack",
     description: "A Multi-clinic appointment booking portal.",
